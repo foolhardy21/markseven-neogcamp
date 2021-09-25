@@ -1,0 +1,15 @@
+{
+  "name": "markseven-navi",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "foolhardy21",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.54.0",
+    "webpack-cli": "^4.8.0"
+  }
+}
