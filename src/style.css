@@ -30,7 +30,7 @@ section {
 .outputarea {
     font-size: 1.5rem;
     border-style: solid;
-    border-color: #2541B2;
+    border-color: #9330f0;
     border-width: thin;
 }
 .btn {
@@ -40,8 +40,8 @@ section {
     font-family: 'Permanent Marker', cursive;
     font-size: 1.5rem;
     letter-spacing: 2px;
-    color: #2541B2;
-    background: #E5D549;
+    color: #c2d9f7;
+    background: #9330f0;
     border-radius: 5px;
-    border-color: #E5D549;
+    border-color: #9330f0;
 }

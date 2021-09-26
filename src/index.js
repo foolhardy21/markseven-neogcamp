@@ -1,9 +1,9 @@
 import './style.css'
 import { headerDiv } from './Header'
-import { contentSection } from './MainSection'
+import { contentDiv } from './MainSection'
 
 const mainDiv = document.querySelector('#maindiv')
 mainDiv.appendChild(headerDiv)
-mainDiv.appendChild(contentSection)
+mainDiv.appendChild(contentDiv)
 
 // document.querySelector('.btn').addEventListener('click', translateText)
