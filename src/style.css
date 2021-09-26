@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#maindiv {
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+.headerdiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 20vh;
+    background: #9330f0;
+    color: #c2d9f7;
+    font-size: 3rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.inputarea, .outputarea {
+    width: 40vw;
+    height: 30vh;
+}
+.outputarea {
+    font-size: 1.5rem;
+    border-style: solid;
+    border-color: #2541B2;
+    border-width: thin;
+}
+.btn {
+    width: 20vw;
+    height: 8vh;
+    margin: 10px 0;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    color: #2541B2;
+    background: #E5D549;
+    border-radius: 5px;
+    border-color: #E5D549;
+}
