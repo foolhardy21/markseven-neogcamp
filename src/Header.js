@@ -2,11 +2,11 @@ const header = (() => {
 
     let header = document.createElement('header')
 
-    function makeHeader() {
+    const makeHeader = () => {
         header.className = 'headerdiv'
         header.innerText = 'navi talk'
     }
-    function getHeader() {
+    const getHeader = () => {
         makeHeader()
         return header
     }
@@ -15,5 +15,5 @@ const header = (() => {
 
 const headerDiv = header.getHeader()
 
-export { headerDiv }
+export default headerDiv 
 

@@ -1,26 +1,26 @@
 const content = (() => {
-    function createInputArea() {
+    const createInputArea = () => {
         let inputTextArea = document.createElement('textarea')
         inputTextArea.className = 'inputarea'
         inputTextArea.placeholder = 'Type your text here...'
         
         return inputTextArea
     }
-    function createOutputArea() {
+    const createOutputArea = () => {
         let outputDiv = document.createElement('div')
         outputDiv.className = 'outputarea'
         outputDiv.innerText = 'Press the button for translation.'
         
         return outputDiv
     }
-    function createButton() {
+    const createButton = () => {
         let translateBtn = document.createElement('button')
         translateBtn.className = 'btn'
         translateBtn.innerText = 'translate'
         
         return translateBtn
     }
-    function getContentSection() {
+    const getContentSection = () => {
         let contentSection = document.createElement('section')
             
         contentSection.appendChild(createInputArea())
@@ -33,4 +33,4 @@ const content = (() => {
 })()
 
 const contentDiv = content.getContentSection()
-export { contentDiv }
+export default contentDiv
